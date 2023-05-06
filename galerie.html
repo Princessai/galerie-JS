@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie-Projet Javascript B2 Dev IFRAN</title>
+    <link rel="stylesheet" href="galerie.css">
+</head>
+<body>
+    <div id="miniature"></div>
+    <!-- création de la fenêtre gros plan -->
+    <div id="gros_plan">
+        <img src="" id="img_gros_plan">
+        <!-- création du bouton fermer -->
+        <button id="fermer" onclick="fermer()"> Close </button>
+    </div>
+    <!-- création des boutons suivant et précédant -->
+    <div class="bouton">
+        <button id="précédent" onclick="précédent()">Précédent</button>
+        <button id="suivant" onclick="suivant()">Suivant</button>
+    </div>
+    <script src="../SITE COMPLET/js/barre.js"></script>
+    <script src="galerie.js"></script>
+</body>
+</html>

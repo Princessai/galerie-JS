@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(187, 228, 241, 0.822);
+}
+
+.image {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid lightsalmon;
+    border-radius: 20px;
+
+}
+.image:hover {
+    background-color: lightsalmon;
+}
+
+#miniature {
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;  
+}
+
+.image:hover {
+    cursor: pointer;
+    width: 210px;
+    transition: all 0.4s;
+}
+
+
+#gros_plan {
+    padding: 30px;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 168, 133, 0.904);
+} 
+
+#img_gros_plan {
+    width: 100%;
+    margin: auto;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#suivant {
+    background-color: floralwhite;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+#suivant:hover{
+    color: #fff;
+    background-color: darkcyan;
+}
+
+#précédent {
+    background-color: floralwhite;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#précédent:hover{
+    color: #fff;
+    background-color: darkcyan;
+}
+
+#fermer{
+    background-color: floralwhite;
+    border: 3px solid red;
+    border-radius: 15px;
+    color: black;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+#fermer:hover{
+    color: white;
+    background-color: red;
+}
